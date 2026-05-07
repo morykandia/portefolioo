@@ -1,98 +1,185 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mory Kandia TRAORE - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Mory Kandia Traore • e-Portfolio</title>
+  <!-- Font Awesome 6 pour icônes -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Lien vers le fichier CSS externe -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cover">
-        <img class="cover-profile" src="pictures/profil.jpg" alt="Photo de Mory Kandia Traore">
-        <h1>Mory Kandia TRAORE</h1>
-        <p>Administrateur Systèmes & Réseaux en devenir | BUT Informatique</p>
-        <div style="text-align: center;">
-            <a class="contact-button" href="mailto:traore.mory-kandja@orange.fr?subject=Contact%20depuis%20le%20portfolio">Me contacter</a>
-        </div>
-        <div class="cover-contact">
-           <p><a href="mailto:traore.mory-kandja@orange.fr?subject=Contact%20depuis%20le%20portfolio">traore.mory-kandja@orange.fr</a></p>
-           <p><a href="tel:+33745673443">07 45 67 34 43</a></p>
-           <p><a href="https://github.com/morykandia" target="_blank">Mon GitHub</a></p>
-        </div>
-    </div>
-
-    <div class=" section section-grise1">
-        <div class="separateur"></div>
-        <p>Étudiant passionné par l'infrastructure IT, je suis à la recherche d'une <b>alternance en Administration Systèmes & Réseaux</b> dès Septembre 2026 (Secteur Lille, Maubeuge et alentours).</p>
-    </div>
-
-    <div class="section">
-        <h2>Mon Profil & Parcours</h2>
-        <img src="pictures/profile12.jpg" class="col40" alt="Illustration Informatique">
-        <div class="col60 float-right" style="padding-left: 16px" >
-            <div class="texte-avec-ligne-verticale">
-                <p>Actuellement étudiant à l'IUT de Maubeuge en <b>BUT Informatique</b>, je combine rigueur technique et esprit agile pour bâtir les réseaux de demain.<br><br>
-                    Expertise grandissante dans les environnements <b>Linux/Windows</b>, la virtualisation, l'architecture <b>Cisco (TCP/IP, VLAN)</b> et la cybersécurité. Je maîtrise également les bases du développement (Java/Python) et la gestion de projets agiles (Scrum, Kanban).</p>
-                <a href="https://www.linkedin.com/in/mory-kandia-traore-574a231b5/" target="_blank">En savoir plus sur mon profil LinkedIn</a>
-            </div>
-        </div>
-    </div>
-
-    <div class=" section section-grise2">
-        <h2>Mes Projets & Réalisations</h2>
-        
-        <table class="col-portfolio" style="display:inline-block">
-            <tr>
-                <td valign="top"><div class="barre-verticale"></div></td>
-                <td>
-                    <h3 style="margin-top:0; color:#333;">Infrastructure Cisco</h3>
-                    <p style="margin-top:0;">Conception d'un réseau d'entreprise complet sur Packet Tracer : Architecture multi-VLAN, Routage inter-VLAN, NAT/PAT et Port Security.</p>
-                </td>
-            </tr>
-        </table>
-        
-        <table class="col-portfolio float-right">
-            <tr>
-                <td valign="top"><div class="barre-verticale"></div></td>
-                <td>
-                    <h3 style="margin-top:0; color:#333;">Application Java Morpion</h3>
-                    <p style="margin-top:0;">Développement d'un jeu avec interface graphique (MVC & Swing), Programmation Orientée Objet, tests JUnit 5 et versioning GitHub.</p>
-                </td>
-            </tr>
-        </table>
-
-        <div style="clear: both; height: 30px;"></div> <table class="col-portfolio" style="display:inline-block">
-            <tr>
-                <td valign="top"><div class="barre-verticale"></div></td>
-                <td>
-                    <h3 style="margin-top:0; color:#333;">Modélisation & SQL</h3>
-                    <p style="margin-top:0;">Projet de modélisation complexe pour une gestion de stocks informatisée incluant UML, MLD/SQL et scripts de requêtes avancées (Python/SQL).</p>
-                </td>
-            </tr>
-        </table>
-    </div>
-
-     <div class="section">
-            <div class="frame">
-                <p class="frame-title">Prêt pour l'Alternance ? Travaillons Ensemble</p>
+  <div class="portfolio-container">
     
-                <table style="width: 100%">
-                    <tr>
-                        <td valign="top" align="center" ><img src="pictures/profil.jpg" style="width: 100px; border-radius: 50%;"></td>
-                        <td>
-                            <div class="texte-avec-ligne-verticale" style="margin-left: 18px">
-                                <p>Besoin de discuter de mon profil ou d'échanger sur une opportunité de contrat d'apprentissage ?
-                                    <br><br>
-                                    <a href="mailto:traore.mory-kandja@orange.fr?subject=Contact%20depuis%20le%20portfolio">Contactez-moi par email</a>
-                                    ou directement par téléphone au
-                                    <a href="tel:+33745673443">07 45 67 34 43</a> 
-                                </p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+    <!-- Section À propos de moi + photo -->
+    <div class="intro-section">
+      <div class="profile-pic-area">
+        <div class="photo-frame">
+           <img src="image.jpeg" alt="Mory Traore" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
+          <div class="photo-placeholder">
+            <i class="fas fa-user-circle"></i>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-text">
+        <h1>Mory Kandia Traore</h1>
+        <div class="title-badge"><i class="fas fa-laptop-code"></i> BUT Informatique • Admin Systèmes & Réseaux</div>
+        <p style="font-size:1.1rem; margin:1rem 0 0.5rem; color:#2c3e50;">
+          Étudiant rigoureux à l'IUT de Maubeuge (Université Polytechnique Hauts-de-France), passionné par l'administration des systèmes, le développement et les infrastructures réseau. 
+          Je construis des solutions fiables avec une approche autonome et collaborative.
+        </p>
+        <p><i class="fas fa-map-marker-alt" style="color:#2563eb;"></i> Lille, 59800</p>
+      </div>
     </div>
+
+    <!-- Grille des compétences, projets, diplômes, expériences -->
+    <div class="grid-sections">
+      
+      <!-- Compétences -->
+      <div class="card">
+        <h2><i class="fas fa-code" style="margin-right:0.5rem;"></i> Compétences</h2>
+        <div style="margin-top:1rem;">
+          <span class="tag">Linux / Windows</span>
+          <span class="tag">Réseau & Routage</span>
+          <span class="tag">Java</span>
+          <span class="tag">Python</span>
+          <span class="tag">POO</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Modélisation</span>
+          <span class="tag">Cybersécurité</span>
+          <span class="tag">Méthodes Agiles</span>
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">Git/GitHub</span>
+        </div>
+        <ul class="competence-list" style="margin-top:1.2rem;">
+          <li><i class="fas fa-check-circle"></i> Configuration réseau & services</li>
+          <li><i class="fas fa-check-circle"></i> Développement orienté objet</li>
+          <li><i class="fas fa-check-circle"></i> Gestion de bases de données</li>
+          <li><i class="fas fa-check-circle"></i> Travail en équipe agile</li>
+        </ul>
+      </div>
+
+      <!-- Projets réalisés -->
+      <div class="card">
+        <h2><i class="fas fa-folder-open"></i> Projets réalisés</h2>
+        <ul class="project-list">
+          <li><i class="fas fa-network-wired"></i> Infrastructure réseau complète</li>
+          <li><i class="fas fa-desktop"></i> Application avec IHM (Java)</li>
+          <li><i class="fas fa-database"></i> Analyse & création de bases de données</li>
+          <li><i class="fas fa-chart-line"></i> Exploration algorithmique (optimisation)</li>
+          <li><i class="fas fa-users"></i> Projet Agile : recueil de besoins</li>
+        </ul>
+      </div>
+
+      <!-- Diplômes -->
+      <div class="card">
+        <h2><i class="fas fa-graduation-cap"></i> Diplômes & Formation</h2>
+        <ul class="diploma-list">
+          <li><strong>BUT Informatique</strong> – Univ. Polytechnique Hauts-de-France (IUT Maubeuge)<br><span style="color:#4b5563;">2025 - 2028 • Spécialité Admin Systèmes & Réseaux</span></li>
+          <li style="margin-top:0.5rem;"><i class="fas fa-award" style="color:#2563eb;"></i> Semestre 1 validé (30 ECTS) · Semestre 2 en cours</li>
+        </ul>
+        <div style="margin-top:1rem; font-size:0.9rem; background:#f1f5f9; padding:0.5rem; border-radius:1rem;">
+          <i class="fas fa-trophy"></i> Rang S1 : 39/85 (C1), 34/85 (C4) · Compétences acquises
+        </div>
+      </div>
+
+      <!-- Expériences -->
+      <div class="card">
+        <h2><i class="fas fa-briefcase"></i> Expériences</h2>
+        <ul class="experience-list">
+          <li style="margin-bottom:1rem;">
+            <strong>Livreur Uber Eats</strong> (Indépendant) <br>
+            <span style="font-size:0.9rem; color:#4b5563;">Gestion du temps, relation client, travail sous pression</span>
+          </li>
+          <li>
+            <strong>Projets académiques</strong> <br>
+            <span style="font-size:0.9rem; color:#4b5563;">Développement, réseau, bases de données, méthodes agiles</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Centres d'intérêt -->
+      <div class="card">
+        <h2><i class="fas fa-heart"></i> Centres d'intérêt</h2>
+        <ul class="interest-list" style="list-style: none;">
+          <li><i class="fas fa-microchip" style="color:#2563eb; width:1.5rem;"></i> Veille technologique & cybersécurité</li>
+          <li><i class="fas fa-globe" style="color:#2563eb;"></i> Nouvelles architectures réseau</li>
+          <li><i class="fas fa-basketball-ball" style="color:#2563eb;"></i> Sport & esprit d'équipe</li>
+          <li><i class="fas fa-music" style="color:#2563eb;"></i> Musique & production assistée</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Section liens : CV, contact, géolocalisation, réseaux sociaux -->
+    <div class="links-section">
+      <div style="display: flex; flex-direction: column; gap: 1.5rem; width: 100%;">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem;">
+          <div>
+            <a href="#" class="cv-button" id="cvLink">
+              <i class="fas fa-file-pdf"></i> Mon CV (PDF)
+            </a>
+            <p style="margin-top: 0.5rem; font-size:0.8rem; color:#4b5563;">Lien vers mon CV détaillé</p>
+          </div>
+          <div class="social-links">
+            <!-- Lien LinkedIn (placeholder modifiable) -->
+            <a href="https://linkedin.com/in/morykandia" target="_blank" id="linkedinLink" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <!-- Facebook -->
+            <a href="https://facebook.com/" target="_blank" id="facebookLink" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <!-- Twitter -->
+            <a href="https://twitter.com/" target="_blank" id="twitterLink" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <!-- GitHub -->
+            <a href="https://github.com/morykandia" target="_blank" id="githubLink" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-geo">
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-envelope" style="color:#2563eb;"></i> 
+            <span>traore.mory-kandja@orange.fr</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-phone-alt" style="color:#2563eb;"></i> 
+            <span>07 45 67 34 43</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-map-pin" style="color:#2563eb;"></i> 
+            <span><a href="https://maps.google.com/?q=Lille+59800" target="_blank" style="color:#13294b; text-decoration:none;">Me géolocaliser (Lille 59800)</a></span>
+          </div>
+        </div>
+        
+        <div style="margin-top: 0.3rem; font-size:0.9rem;">
+          <i class="fas fa-comment-dots"></i> <strong>Me contacter :</strong> via email ou téléphone ci-dessus, ou via LinkedIn.
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <p>© 2026 Mory Kandia Traore – e-Portfolio BUT Informatique • Conçu selon les recommandations pédagogiques</p>
+      <p style="margin-top:0.3rem;"><i class="fas fa-sync-alt"></i> Portfolio en évolution – Semestre 2</p>
+    </footer>
+  </div>
+
+  <!-- Script pour personnaliser les liens -->
+  <script>
+    (function() {
+      // Configuration des liens réels (à adapter selon vos vrais profils)
+      const linkedinProfile = "https://linkedin.com/in/morykandia";
+      const facebookProfile = "https://facebook.com/";
+      const twitterProfile = "https://twitter.com/";
+      const githubProfile = "https://github.com/morykandia?tab=repositories";
+      const cvDocument = "but-cv-docx.pdf"; // Nom du fichier CV (doit être dans le même dossier)
+
+      document.getElementById('linkedinLink').setAttribute('href', linkedinProfile);
+      document.getElementById('facebookLink').setAttribute('href', facebookProfile);
+      document.getElementById('twitterLink').setAttribute('href', twitterProfile);
+      document.getElementById('githubLink').setAttribute('href', githubProfile);
+      
+      const cvButton = document.getElementById('cvLink');
+      cvButton.setAttribute('href', cvDocument);
+      cvButton.setAttribute('target', '_blank');
+    })();
+  </script>
 </body>
 </html>
