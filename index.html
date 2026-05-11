@@ -16,10 +16,8 @@
     <div class="intro-section">
       <div class="profile-pic-area">
         <div class="photo-frame">
-           <img src="image.jpeg" alt="Mory Traore" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
-          <div class="photo-placeholder">
-            <i class="fas fa-user-circle"></i>
-          </div>
+          <!-- Votre photo : remplacez "image.jpeg" par le chemin de votre image -->
+          <img src="image.jpeg" alt="Mory Traore" class="profile-img">
         </div>
       </div>
       
@@ -81,6 +79,7 @@
           <li style="margin-top:0.5rem;"><i class="fas fa-award" style="color:#2563eb;"></i> Semestre 1 validé (30 ECTS) · Semestre 2 en cours</li>
         </ul>
         <div style="margin-top:1rem; font-size:0.9rem; background:#f1f5f9; padding:0.5rem; border-radius:1rem;">
+          <i class="fas fa-trophy"></i> Rang S1 : 39/85 (C1), 34/85 (C4) · Compétences acquises
         </div>
       </div>
 
@@ -122,7 +121,7 @@
             <p style="margin-top: 0.5rem; font-size:0.8rem; color:#4b5563;">Lien vers mon CV détaillé</p>
           </div>
           <div class="social-links">
-            <!-- Lien LinkedIn (placeholder modifiable) -->
+            <!-- Lien LinkedIn -->
             <a href="https://linkedin.com/in/morykandia" target="_blank" id="linkedinLink" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
             <!-- Facebook -->
             <a href="https://facebook.com/" target="_blank" id="facebookLink" title="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -163,12 +162,11 @@
   <!-- Script pour personnaliser les liens -->
   <script>
     (function() {
-      // Configuration des liens réels (à adapter selon vos vrais profils)
       const linkedinProfile = "https://linkedin.com/in/morykandia";
       const facebookProfile = "https://facebook.com/";
       const twitterProfile = "https://twitter.com/";
       const githubProfile = "https://github.com/morykandia?tab=repositories";
-      const cvDocument = "but-cv-docx.pdf"; // Nom du fichier CV (doit être dans le même dossier)
+      const cvDocument = "but-cv-docx.pdf";
 
       document.getElementById('linkedinLink').setAttribute('href', linkedinProfile);
       document.getElementById('facebookLink').setAttribute('href', facebookProfile);
